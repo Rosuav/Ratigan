@@ -32,3 +32,10 @@ testing for the preloading state because 4GB RAM in a Win 10 VM is tedious.
 * Chrome: Matched baseline.
 * Firefox: Matched baseline.
 * Edge: Matched baseline.
+
+OBS
+
+* OBS v25 on Debian with OBS-LinuxBrowser: No visibility events, and no support
+  for scripts type=module. Will look into this.
+* OBS v25 on Win 10 with built-in Browser: Visibility events behave correctly.
+  Not all forms tested but scene switching DOES mark the page as hidden.
