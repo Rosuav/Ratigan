@@ -16,10 +16,19 @@ Goals:
 Results
 -------
 
+Chrome 80 and Firefox 68 on Debian Linux
+
 * Chrome, basic: Page goes hidden if another tab selected, but stays visible if
   the entire window is hidden. Never saw 'preloading' even if page opened in
-  a background tab.
+  a background tab. Page is deemed "hidden" if the entire window is minimized.
 * Chrome, audio: Exactly as per basic. Playing audio may prevent throttling,
   but does not affect hidden status.
 * Chrome, ComfyJS: Exactly as per basic. Same.
 * Firefox: No differences seen compared to Chrome.
+
+Edge 44, Chrome 81, and Firefox 75 on Win 10. Using the same baseline. Not
+testing for the preloading state because 4GB RAM in a Win 10 VM is tedious.
+
+* Chrome: Matched baseline.
+* Firefox: Matched baseline.
+* Edge: Matched baseline.
