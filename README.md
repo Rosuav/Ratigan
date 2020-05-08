@@ -39,3 +39,6 @@ OBS
   for scripts type=module. Will look into this.
 * OBS v25 on Win 10 with built-in Browser: Visibility events behave correctly.
   Not all forms tested but scene switching DOES mark the page as hidden.
+* OBS v25 on Debian with built-in Browser: Visibility events behave correctly,
+  as per the Win 10 test (surprise surprise). Font issues with CEF 3770 but
+  everything works in CEF 3809 (or hack in another setting in the plugin).
